@@ -26,6 +26,7 @@ function App() {
       <div id="artist-intro">
         <h2 className="title">Sophie <span className="pink">Walden</span></h2>
         <h3 className="sub-message">Programming by Trade, Artist by Accident</h3>
+        <div className="arrow animated bounce"></div>
       </div>
       <div id="art-showoff">
 
@@ -33,7 +34,7 @@ function App() {
         <div className="masonry">
           {imageFiles.sort().map((image, index) => (
             <Tilt options={defaultOptions} key={index} className="image-item">
-              <img className="display-image masonry-item react-tilt" src={`${image}`}  />
+              <img className="display-image masonry-item react-tilt" src={`/ArtistBio/${image}`}  />
             </Tilt>
           ))}
         </div>
