@@ -1,0 +1,7 @@
+:root, body, html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #121B1A;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
